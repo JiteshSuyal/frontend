@@ -1,0 +1,5 @@
+.listContainer {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
