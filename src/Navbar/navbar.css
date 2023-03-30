@@ -3,3 +3,9 @@
   display: flex;
   gap: 20px;
 }
+.activeClassName {
+  color: red;
+}
+.inActiveClassName {
+  color: green;
+}

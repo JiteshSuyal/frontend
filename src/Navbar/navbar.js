@@ -5,7 +5,14 @@ const Navbar = () => {
     <div className="">
       <ul className="listContainer">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "activeClassName" : "inActiveClassName"
+            }
+            to="/"
+          >
+            Home
+          </NavLink>
         </li>
         <li>
           <NavLink to="/about">About</NavLink>
